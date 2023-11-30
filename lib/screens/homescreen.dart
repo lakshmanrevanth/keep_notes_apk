@@ -98,6 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                       borderRadius:
                                           BorderRadius.circular(50.0)))),
                           onPressed: () {
+                            print("hello world");
                             if (view == 0) {
                               setState(() {
                                 ui = NotesUi();
