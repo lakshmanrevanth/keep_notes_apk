@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:keepnotesapk/components/homenotesui.dart';
 import 'package:keepnotesapk/components/newnote.dart';
@@ -99,6 +101,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                           BorderRadius.circular(50.0)))),
                           onPressed: () {
                             print("hello world");
+                            print("git is added");
+                            print("git is again added");
                             if (view == 0) {
                               setState(() {
                                 ui = NotesUi();
